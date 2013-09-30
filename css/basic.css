@@ -6,6 +6,7 @@
 	margin: auto;
 	height: auto;
 	background-color: #51473d;
+	background-repeat: no-repeat;
 	border: 1px solid #cecab9;
 }
 
@@ -18,6 +19,9 @@
 	float: left;
 	width: 600px;
 	background-color: #51473d;
+	background-image: url(pics/coffey.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px 15px;
 	color: #eae7d2;
 	font-style: italic;
 }
@@ -55,7 +59,7 @@
 	display: block;
 	font-family: Verdana;
 	text-decoration: none;
-	font-size: 14px;
+	font-size: 13px;
 	text-align: center;
 	color: #eae7d2;
 	margin-left: 1px;
@@ -79,6 +83,48 @@
     background: #eae7d2;
 }
 
+#subcontent ul li
+{
+    list-style: none;
+}
+
+#subcontent ul
+{
+    padding: 0px;
+    margin: -1px;
+    font-size: 0.8em;
+}
+
+#subcontent ul li a
+{
+    color: #51473d;
+	font-size: 1.5em;
+}
+
+
+h1
+{
+	font-family: "Times New Roman";
+	font-weight: bold;
+	color: #797066;
+	font-size: 1.4em;
+}
+
+#maincontent h1
+{
+	font-family: "Times New Roman";
+	font-weight: lighter;
+	font-size: 2em;
+	color: #797066;
+}
+
+h2
+{
+	font-family: "Times New Roman";
+	font-size: 1.2em;
+	font-weight: lighter;
+}
+
 #content
 {
 	background: #eae7d2;
@@ -95,3 +141,54 @@
 	padding-bottom: 10px;
 	padding-left: 10px;
 }
+
+#maincontent
+{
+    float: left;
+    width: 350px;
+    height: auto;
+    border-right: 1px dashed Gray;
+    margin-right: 8px;
+    padding: 7px;
+}
+
+#menu a
+{
+    display: none;
+}
+
+#maincontent img
+{
+	float: left;
+	background-image: url(../pics/info.jpg);
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 100px;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#subcontent
+{
+    padding-top: 17px;
+    margin: auto;
+    font-size: 0.8em;
+}
+
+#subcontent h2
+{
+    margin: 0px;
+    font-weight: normal;
+}
+
+#bottomcontent
+{
+    font-size: 0.6em;
+    font-style: italic;
+    width: 500px;
+    overflow: auto;
+}
+
+
