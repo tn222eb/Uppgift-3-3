@@ -1,1 +1,47 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+
+#container
+{
+	width: 600px;
+	margin: auto;
+	height: auto;
+	background-color: #51473d;
+	border: 1px solid #cecab9;
+}
+
+#topbar
+{
+	text-align: right;
+	font-family: Verdana;
+	font-size: 0.65em;
+	height: 215px;
+	float: left;
+	width: 600px;
+	background-color: #51473d;
+	color: #eae7d2;
+	font-style: italic;
+}
+
+#menu
+{
+    padding: 0px;
+    display: inline-block;
+    height: 35px;
+}
+
+#content
+{
+	background: #eae7d2;
+	font-family: Verdana;
+	font-size: 0.8em;	
+	color: #797066;
+	text-align: left;
+	line-height: 20px;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	border-bottom: 1px solid gray;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
